@@ -22,7 +22,7 @@ module AcvAsCsv
     end
 
     def each(&block)
-      @csv_contents.each { |row| block.call row }
+      @csv_contents.each &block
     end
 
     attr_accessor :headers, :csv_contents
