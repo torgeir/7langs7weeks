@@ -1,0 +1,5 @@
+prototype based - each object is a clone of another
+:= assign
+= update
+In e.g. java, classes and objects are different entities entirely. In Io, everything is an object.
+proto looks up prototype
